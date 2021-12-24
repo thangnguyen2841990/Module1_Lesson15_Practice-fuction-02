@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excercise04</title>
+</head>
+<body>
+<script>
+    function isInteger(str) {
+        if (isNaN(str)){
+            return false;
+        }
+        return true;
+    }
+    let str = prompt("Nhập ký tự cần kiểm tra: ")
+    if (isInteger(str)){
+        alert("ký tự nhập vào là số");
+    } else {
+        alert("ký tự nhập vào không phải là số");
+    }
+</script>
+</body>
+</html>

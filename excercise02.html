@@ -6,6 +6,17 @@
 </head>
 <body>
 <script>
+function perimeterCircle(radius) {
+    perimeter = 2*radius*Math.PI;
+    return perimeter;
+}
+function areaCircle(radius) {
+    area = Math.pow(radius,2) * Math.PI;
+    return area;
+}
+let radius = prompt("Please input radius of Circle:")
+alert("Perimeter of Cirle is: "+ perimeterCircle(radius));
+alert("Area of Cirle is: "+ areaCircle(radius));
 
 </script>
 </body>

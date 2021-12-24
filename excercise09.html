@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excercise09</title>
+</head>
+<body>
+<script>
+    function checkCharacter(character) {
+        let count = 0;
+        for (i =0;i<arr.length;i++){
+            if(character === arr[i]){
+                count ++;
+            }
+        }
+        return count;
+    }
+    let arr = ['a','b','c'];
+    let character = prompt("please input character: ");
+    if (checkCharacter(character) === 0){
+        alert("Ký tự không nằm trong mảng");
+    }else {
+        alert("Ký tự xuất hiện " + checkCharacter(character) + " lần");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excercise05</title>
+</head>
+<body>
+<script>
+    function minNumber(a, b, c) {
+        if (a < b && a < c) {
+            return min = a;
+        } else if (b < a && b < c) {
+            return min = b;
+        } else {
+            return min = c;
+        }
+    }
+    let a = prompt("Please input a: ");
+    let b = prompt("Please input b: ");
+    let c = prompt("Please input c: ");
+    alert("min of 3 numbers is: "+ minNumber(a,b,c));
+
+</script>
+</body>
+</html>
